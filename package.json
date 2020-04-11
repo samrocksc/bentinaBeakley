@@ -1,6 +1,6 @@
 {
   "name": "bentinabeakley",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Curry your functions with Bentina Beakley",
   "main": "dist/index.js",
   "scripts": {
