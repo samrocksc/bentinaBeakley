@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es2019",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "lib": [
+      "es5",
+      "es6",
+      "esnext.asynciterable",
+      "es7",
+      "es2017",
+      "es2015",
+      "es2019"
+    ]
+  },
+  "include": ["./src/**/*"],
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs",
+    "theme": "minimal"
+  }
+}
